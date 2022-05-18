@@ -19,7 +19,7 @@ Resources:
       Timeout: 30
       MemorySize: 256
       Layers:
-        - PASTE HERE YOUR LAYER ARN
+        arn:aws:lambda:us-west-2:099738709851:layer:awslambdas-com-python38-scikit-learn0241:1
       Events:
         Sklearn:
           Type: Api
